@@ -1,16 +1,35 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
-  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+}
+
+main {
+  border-radius: 1.25rem;
+  min-width: 260px;
+}
+
+#generate-container {
+  width: fit-content;
+}
+
+#generate-another {
+  border-radius: .25em 0 0 .25em;
+  margin-block-end: 0;
+}
+
+#generate-button {
+  border-radius: 0 .25em .25em 0;
+}
+
+#footer-text {
+  font-size: .8em;
+  position: relative;
+  top: 4.5em;
 }
